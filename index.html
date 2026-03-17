@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glass 3D Apple Style</title>
+    <title>Apple Glass 3D Demo</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -11,137 +11,304 @@
       <div class="aurora aurora-a"></div>
       <div class="aurora aurora-b"></div>
       <div class="aurora aurora-c"></div>
-      <div class="grid"></div>
+      <div class="aurora aurora-d"></div>
+
+      <div class="bg-grid"></div>
+      <div class="bg-noise"></div>
       <div class="cursor-light"></div>
     </div>
 
-    <main class="app">
-      <section class="hero glass panel-3d tilt-card">
-        <div class="hero-reflection"></div>
-        <div class="hero-topline">Liquid Glass • 3D UI • Rainbow Light</div>
+    <div class="page-shell">
+      <header class="topbar glass panel-3d tilt-soft">
+        <div class="topbar-left">
+          <div class="brand-pill glass">
+            <span class="brand-dot"></span>
+            <span class="brand-name">GlassVision</span>
+          </div>
 
-        <div class="hero-content">
-          <div class="hero-text">
-            <h1>Glass UI 3D con efectos muy guays</h1>
+          <nav class="nav glass">
+            <a href="#">Inicio</a>
+            <a href="#">Efectos</a>
+            <a href="#">3D</a>
+            <a href="#">Preview</a>
+          </nav>
+        </div>
+
+        <div class="topbar-right">
+          <button class="icon-btn glass">
+            <span>⌘</span>
+          </button>
+          <button class="icon-btn glass">
+            <span>✦</span>
+          </button>
+          <button class="btn btn-small btn-secondary">
+            <span>Entrar</span>
+          </button>
+        </div>
+      </header>
+
+      <main class="app">
+        <section class="hero glass panel-3d tilt-card">
+          <div class="hero-shine"></div>
+          <div class="hero-glow"></div>
+
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <div class="eyebrow glass">
+                <span class="eyebrow-dot"></span>
+                <span>Apple Glass • 3D Interface • Rainbow Glow</span>
+              </div>
+
+              <h1>
+                Interfaz glass 3D
+                <span>con efectos muy guays</span>
+              </h1>
+
+              <p class="hero-text">
+                Demo visual premium con cristal translúcido, profundidad 3D,
+                reflejos dinámicos, capas holográficas, luces arcoíris, paneles
+                flotantes y reacciones suaves al pasar el mouse.
+              </p>
+
+              <div class="hero-actions">
+                <button class="btn btn-primary magnetic">
+                  <span>Explorar demo</span>
+                </button>
+                <button class="btn btn-secondary">
+                  <span>Ver interacción</span>
+                </button>
+              </div>
+
+              <div class="hero-stats">
+                <div class="mini-stat glass inner-glass tilt-soft">
+                  <strong>Glass</strong>
+                  <span>Blur + transparencia</span>
+                </div>
+                <div class="mini-stat glass inner-glass tilt-soft">
+                  <strong>3D</strong>
+                  <span>Depth + perspective</span>
+                </div>
+                <div class="mini-stat glass inner-glass tilt-soft">
+                  <strong>Glow</strong>
+                  <span>Cursor reactive</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual">
+              <div class="visual-core">
+                <div class="orbital-wrap tilt-soft">
+                  <div class="orbital-ring ring-a"></div>
+                  <div class="orbital-ring ring-b"></div>
+                  <div class="orbital-ring ring-c"></div>
+
+                  <div class="glass-sphere sphere-big"></div>
+                  <div class="glass-sphere sphere-small"></div>
+
+                  <div class="floating-panel glass panel-3d tilt-card">
+                    <div class="floating-panel-top">
+                      <span class="panel-chip glass">Live Preview</span>
+                      <span class="panel-chip glass">3D</span>
+                    </div>
+
+                    <div class="floating-chart">
+                      <div class="chart-bar b1"></div>
+                      <div class="chart-bar b2"></div>
+                      <div class="chart-bar b3"></div>
+                      <div class="chart-bar b4"></div>
+                      <div class="chart-bar b5"></div>
+                    </div>
+
+                    <div class="floating-metrics">
+                      <div class="metric glass inner-glass">
+                        <strong>94%</strong>
+                        <span>Glow</span>
+                      </div>
+                      <div class="metric glass inner-glass">
+                        <strong>3D</strong>
+                        <span>Depth</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cube tilt-mini">
+                    <div class="cube-face front"></div>
+                    <div class="cube-face back"></div>
+                    <div class="cube-face left"></div>
+                    <div class="cube-face right"></div>
+                    <div class="cube-face top"></div>
+                    <div class="cube-face bottom"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="feature-row">
+          <article class="feature-card glass panel-3d tilt-card holo-card">
+            <div class="card-reflection"></div>
+            <div class="feature-top">
+              <div class="feature-icon glass">✦</div>
+              <div class="feature-badge glass">Premium</div>
+            </div>
+            <div class="feature-body">
+              <h2>Glass profundo</h2>
+              <p>
+                Capas translúcidas, sombras suaves y bordes brillantes para
+                crear una sensación real de cristal flotante.
+              </p>
+            </div>
+            <div class="feature-footer">
+              <span>Blur</span>
+              <span>Light</span>
+              <span>Depth</span>
+            </div>
+          </article>
+
+          <article class="feature-card glass panel-3d tilt-card holo-card">
+            <div class="card-reflection"></div>
+            <div class="feature-top">
+              <div class="feature-icon glass">◎</div>
+              <div class="feature-badge glass">Dynamic</div>
+            </div>
+            <div class="feature-body">
+              <h2>Shine dinámico</h2>
+              <p>
+                El brillo reacciona al mouse y se mueve por la superficie para
+                dar un acabado más vivo y pulido.
+              </p>
+            </div>
+            <div class="feature-footer">
+              <span>Mouse</span>
+              <span>Shine</span>
+              <span>Hover</span>
+            </div>
+          </article>
+
+          <article class="feature-card glass panel-3d tilt-card holo-card">
+            <div class="card-reflection"></div>
+            <div class="feature-top">
+              <div class="feature-icon glass">⌘</div>
+              <div class="feature-badge glass">Interactive</div>
+            </div>
+            <div class="feature-body">
+              <h2>Profundidad 3D</h2>
+              <p>
+                Perspectiva, tilt, pequeñas elevaciones y sensación espacial en
+                varios bloques de la interfaz.
+              </p>
+            </div>
+            <div class="feature-footer">
+              <span>Tilt</span>
+              <span>3D</span>
+              <span>Motion</span>
+            </div>
+          </article>
+
+          <article class="feature-card glass panel-3d tilt-card holo-card">
+            <div class="card-reflection"></div>
+            <div class="feature-top">
+              <div class="feature-icon glass">◌</div>
+              <div class="feature-badge glass">Aurora</div>
+            </div>
+            <div class="feature-body">
+              <h2>Rainbow light</h2>
+              <p>
+                Colores iridiscentes refinados con una mezcla de tonos cian,
+                rosa, violeta y azul.
+              </p>
+            </div>
+            <div class="feature-footer">
+              <span>RGB</span>
+              <span>Glow</span>
+              <span>Soft</span>
+            </div>
+          </article>
+        </section>
+
+        <section class="dashboard">
+          <div class="dashboard-left glass panel-3d tilt-card">
+            <div class="section-label glass">Interactive Surface</div>
+            <h3>Panel reactivo con varias capas glass</h3>
             <p>
-              Demo visual con estética premium inspirada en Apple: cristal,
-              reflejos, capas translúcidas, brillos holográficos, profundidad 3D
-              y reacciones fluidas al movimiento del ratón.
+              Este módulo responde al cursor con inclinación 3D, brillo móvil,
+              degradado holográfico y una composición de elementos internos.
             </p>
 
-            <div class="hero-actions">
-              <button class="btn btn-primary magnetic">
-                <span>Explorar demo</span>
-              </button>
-              <button class="btn btn-secondary">
-                <span>Ver efectos</span>
-              </button>
+            <div class="dashboard-widgets">
+              <div class="widget glass inner-glass tilt-soft">
+                <span class="widget-title">Aura</span>
+                <strong>Soft RGB</strong>
+              </div>
+              <div class="widget glass inner-glass tilt-soft">
+                <span class="widget-title">Glass</span>
+                <strong>Advanced Blur</strong>
+              </div>
+              <div class="widget glass inner-glass tilt-soft">
+                <span class="widget-title">Motion</span>
+                <strong>Cursor Follow</strong>
+              </div>
+            </div>
+
+            <div class="progress-panel glass inner-glass">
+              <div class="progress-head">
+                <span>Visual intensity</span>
+                <span>87%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill"></div>
+              </div>
             </div>
           </div>
 
-          <div class="hero-visual">
-            <div class="floating-cube tilt-mini">
-              <div class="cube-face cube-front"></div>
-              <div class="cube-face cube-back"></div>
-              <div class="cube-face cube-left"></div>
-              <div class="cube-face cube-right"></div>
-              <div class="cube-face cube-top"></div>
-              <div class="cube-face cube-bottom"></div>
-            </div>
+          <div class="dashboard-right">
+            <div class="stack stack-back glass panel-3d tilt-soft"></div>
+            <div class="stack stack-mid glass panel-3d tilt-soft"></div>
 
-            <div class="glass-orb orb-main"></div>
-            <div class="glass-orb orb-small"></div>
-          </div>
-        </div>
-      </section>
+            <div class="stack stack-front glass panel-3d tilt-card">
+              <div class="stack-header">
+                <div>
+                  <span class="section-label glass">Depth Layers</span>
+                  <h3>Tarjetas apiladas</h3>
+                </div>
+                <div class="stack-pills">
+                  <span class="tiny-pill glass">3D</span>
+                  <span class="tiny-pill glass">Glass</span>
+                </div>
+              </div>
 
-      <section class="features">
-        <article class="feature glass panel-3d tilt-card holo-card">
-          <div class="feature-shine"></div>
-          <div class="feature-depth"></div>
-          <div class="feature-icon">✦</div>
-          <h2>Glass profundo</h2>
-          <p>
-            Varias capas con blur, transparencia y relieve para crear una
-            sensación real de cristal flotante.
-          </p>
-        </article>
+              <div class="stack-preview">
+                <div class="preview-card glass inner-glass tilt-soft">
+                  <span>Layer 01</span>
+                </div>
+                <div class="preview-card glass inner-glass tilt-soft">
+                  <span>Layer 02</span>
+                </div>
+                <div class="preview-card glass inner-glass tilt-soft">
+                  <span>Layer 03</span>
+                </div>
+              </div>
 
-        <article class="feature glass panel-3d tilt-card holo-card">
-          <div class="feature-shine"></div>
-          <div class="feature-depth"></div>
-          <div class="feature-icon">◎</div>
-          <h2>Brillo dinámico</h2>
-          <p>
-            El reflejo cambia según el ratón y aporta un acabado pulido,
-            luminoso y más premium.
-          </p>
-        </article>
-
-        <article class="feature glass panel-3d tilt-card holo-card">
-          <div class="feature-shine"></div>
-          <div class="feature-depth"></div>
-          <div class="feature-icon">◌</div>
-          <h2>Interacción 3D</h2>
-          <p>
-            Tilt, perspectiva, hover con profundidad y un pequeño efecto
-            magnético en elementos importantes.
-          </p>
-        </article>
-
-        <article class="feature glass panel-3d tilt-card holo-card">
-          <div class="feature-shine"></div>
-          <div class="feature-depth"></div>
-          <div class="feature-icon">⌘</div>
-          <h2>Holográfico</h2>
-          <p>
-            Mezcla de tonos cian, rosa, violeta y azul con una iluminación
-            iridiscente suave.
-          </p>
-        </article>
-      </section>
-
-      <section class="showcase">
-        <div class="showcase-left glass panel-3d tilt-card">
-          <div class="mini-label">Live interaction</div>
-          <h3>Panel flotante reactivo</h3>
-          <p>
-            Este panel responde al cursor con inclinación, glow y reflejos que
-            parecen deslizarse sobre la superficie.
-          </p>
-
-          <div class="stats">
-            <div class="stat glass inner-glass">
-              <span class="stat-value">3D</span>
-              <span class="stat-label">Depth</span>
-            </div>
-            <div class="stat glass inner-glass">
-              <span class="stat-value">Glass</span>
-              <span class="stat-label">Blur</span>
-            </div>
-            <div class="stat glass inner-glass">
-              <span class="stat-value">Glow</span>
-              <span class="stat-label">Cursor</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="showcase-right">
-          <div class="stack-card glass panel-3d tilt-card stack-1"></div>
-          <div class="stack-card glass panel-3d tilt-card stack-2"></div>
-          <div class="stack-card glass panel-3d tilt-card stack-3">
-            <div class="stack-content">
-              <span class="stack-pill">Premium Visual</span>
-              <h3>Capas apiladas de cristal</h3>
               <p>
-                Tarjetas con distinta profundidad y composición espacial para
-                reforzar el efecto 3D.
+                Varias piezas internas con diferentes planos espaciales para
+                reforzar el efecto de profundidad.
               </p>
             </div>
           </div>
+        </section>
+      </main>
+
+      <div class="dock-wrap">
+        <div class="dock glass panel-3d">
+          <button class="dock-item glass"><span>⌂</span></button>
+          <button class="dock-item glass"><span>✦</span></button>
+          <button class="dock-item glass"><span>◉</span></button>
+          <button class="dock-item glass"><span>⌘</span></button>
+          <button class="dock-item glass"><span>☼</span></button>
         </div>
-      </section>
-    </main>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
